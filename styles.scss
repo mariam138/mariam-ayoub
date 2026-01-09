@@ -20,4 +20,8 @@ body {
   &--bold {
     font-weight: 600;
   }
+
+  h1, h2, p {
+    color: palette.$onyx;
+  }
 }
