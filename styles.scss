@@ -1,2 +1,8 @@
 @use "./modules/palette";
 @use "./modules/font";
+
+// Wildcard class to apply styles to entire webpage
+* {
+    // Import the inter-font placeholder to apply font to entire webpage
+    @extend %inter-font;
+}
