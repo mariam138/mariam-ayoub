@@ -1,4 +1,5 @@
-# mariam-ayoub
+# Mariam Ayoub Portfolio
+
 Welcome to my portfolio site!
 View the live site [here](https://mariam138.github.io/mariam-ayoub/)!
 
