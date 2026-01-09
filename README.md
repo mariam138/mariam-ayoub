@@ -11,3 +11,6 @@ Welcome to my portfolio site!
 - Brown Red: `#a22c29`
 - Chestnut: `#902923`
 
+### Typography
+
+I used the "Inter" font for my website, downloaded from [Google Fonts](https://fonts.google.com/specimen/Inter).
