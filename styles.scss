@@ -3,6 +3,20 @@
 
 // Wildcard class to apply styles to entire webpage
 * {
-    // Import the inter-font placeholder to apply font to entire webpage
-    @extend %inter-font;
+  // Import the inter-font placeholder to apply font to entire webpage
+  @extend %inter-font;
+}
+
+// adds margin on top to push content away from top of page for breathing room
+body {
+  margin-top: 1rem;
+}
+
+// Content class
+.content {
+  @extend %inter-font;
+  //   Add modifier class to override standard bold font weight
+  &--bold {
+    font-weight: 600;
+  }
 }
