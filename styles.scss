@@ -7,9 +7,7 @@
   @extend %inter-font;
 }
 
-// adds margin on top to push content away from top of page for breathing room
 body {
-  margin-top: 1rem;
   background-color: palette.$dust-grey;
 }
 
