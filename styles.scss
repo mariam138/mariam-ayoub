@@ -28,5 +28,10 @@ body {
       font-weight: 400;
       font-size: 1.25rem;
     }
+
+    // Make h1 title extra bold
+    &__title {
+      font-weight: 700;
+    }
   }
 }
