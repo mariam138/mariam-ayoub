@@ -34,4 +34,10 @@ body {
       font-weight: 700;
     }
   }
+
+  &__about{
+    &__img {
+      max-width: 90%;
+    }
+  }
 }

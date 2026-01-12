@@ -23,3 +23,6 @@ body {
 .content__landing__title {
   font-weight: 700;
 }
+.content__about__img {
+  max-width: 90%;
+}
