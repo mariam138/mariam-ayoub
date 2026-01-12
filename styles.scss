@@ -1,6 +1,13 @@
 @use "./modules/palette";
 @use "./modules/font";
 
+// Laptop media query mixin
+@mixin laptop {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
 // Wildcard class to apply styles to entire webpage
 * {
   // Import the inter-font placeholder to apply font to entire webpage
@@ -41,6 +48,13 @@ body {
     // Image takes 80% of parent container on smaller screen
     &__img {
       max-width: 80%;
+    }
+
+    // Create smaller img for bigger screens
+    @include laptop {
+      &__img {
+        max-width: 40%;
+      }
     }
   }
 }
