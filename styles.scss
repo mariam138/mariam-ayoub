@@ -19,7 +19,9 @@ body {
     font-weight: 600;
   }
 
-  h1, h2, p {
+  h1,
+  h2,
+  p {
     color: palette.$onyx;
   }
 
@@ -35,9 +37,10 @@ body {
     }
   }
 
-  &__about{
+  &__about {
+    // Image takes 80% of parent container on smaller screen
     &__img {
-      max-width: 90%;
+      max-width: 80%;
     }
   }
 }
