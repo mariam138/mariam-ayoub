@@ -16,3 +16,7 @@ body {
 .content h1, .content h2, .content p {
   color: #0a100d;
 }
+.content__landing__para {
+  font-weight: 400;
+  font-size: 1.25rem;
+}

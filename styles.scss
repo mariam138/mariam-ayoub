@@ -22,4 +22,11 @@ body {
   h1, h2, p {
     color: palette.$onyx;
   }
+
+  &__landing {
+    &__para {
+      font-weight: 400;
+      font-size: 1.25rem;
+    }
+  }
 }
