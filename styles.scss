@@ -58,4 +58,11 @@ body {
       }
     }
   }
+
+  &__skills {
+    &__icon {
+      font-size: 2rem;
+      color: palette.$chestnut;
+    }
+  }
 }

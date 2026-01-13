@@ -34,3 +34,7 @@ body {
     max-width: 40%;
   }
 }
+.content__skills__icon {
+  font-size: 2rem;
+  color: #902923;
+}
