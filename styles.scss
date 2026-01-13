@@ -26,7 +26,6 @@ body {
     font-weight: 600;
   }
 
-  h1,
   h2,
   p {
     color: palette.$onyx;
@@ -36,12 +35,14 @@ body {
     &__para {
       font-weight: 400;
       font-size: 1.25rem;
+      color: palette.$brown-red !important;
     }
 
     // Make h1 title extra bold and large
     &__title {
       font-weight: 700;
       font-size: 2.75rem;
+      color: palette.$chestnut;
     }
   }
 

@@ -13,7 +13,6 @@ body {
 .content--bold {
   font-weight: 600;
 }
-.content h1,
 .content h2,
 .content p {
   color: #0a100d;
@@ -21,10 +20,12 @@ body {
 .content__landing__para {
   font-weight: 400;
   font-size: 1.25rem;
+  color: #a22c29 !important;
 }
 .content__landing__title {
   font-weight: 700;
   font-size: 2.75rem;
+  color: #902923;
 }
 .content__about__img {
   max-width: 80%;
