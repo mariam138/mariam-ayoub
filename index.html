@@ -208,11 +208,15 @@
     <footer class="contact-footer">
       <!-- Bootstrap navbar element with sticky-bottom class for footer links -->
       <nav class="navbar sticky-bottom contact-footer__nav">
-        <div class="container-fluid">
-          <a href="" class="contact-footer__link">Email</a>
-          <a href="" class="contact-footer__link">LinkedIn</a>
-          <a href="" class="contact-footer__link">GitHub</a>
-          <a href="" class="contact-footer__link">CV</a>
+        <div
+          class="container-fluid justify-content-around flex-column flex-lg-row"
+        >
+          <div class="order-lg-1">
+            <a href="" class="contact-footer__link">LinkedIn</a>
+            <a href="" class="contact-footer__link">GitHub</a>
+            <a href="" class="contact-footer__link">CV</a>
+          </div>
+          <a href="" class="contact-footer__link order-lg-0">Email</a>
         </div>
       </nav>
     </footer>
