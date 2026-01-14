@@ -42,3 +42,11 @@ body {
 .content__skills__label {
   color: #a22c29 !important;
 }
+@media only screen and (min-width: 992px) {
+  .content__skills__icon {
+    font-size: 3rem;
+  }
+  .content__skills__label {
+    font-size: 2rem;
+  }
+}

@@ -69,6 +69,15 @@ body {
     &__label{
       color: palette.$brown-red !important;
     }
+
+    @include laptop {
+      &__icon {
+        font-size: 3rem;
+      }
+      &__label {
+        font-size: 2rem;
+      }
+    }
     
   }
 }
