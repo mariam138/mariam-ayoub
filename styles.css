@@ -39,3 +39,6 @@ body {
   font-size: 2rem;
   color: #902923;
 }
+.content__skills__label {
+  color: #a22c29 !important;
+}

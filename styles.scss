@@ -65,5 +65,10 @@ body {
       font-size: 2rem;
       color: palette.$chestnut;
     }
+
+    &__label{
+      color: palette.$brown-red !important;
+    }
+    
   }
 }
