@@ -17,36 +17,39 @@ body {
 .content p {
   color: #0a100d;
 }
-.content__landing__para {
+
+.landing__para {
   font-weight: 400;
   font-size: 1.25rem;
   color: #a22c29 !important;
 }
-.content__landing__title {
+.landing__title {
   font-weight: 700;
   font-size: 2.75rem;
   color: #902923;
 }
-.content__about__img {
+
+.about__img {
   max-width: 80%;
 }
 @media only screen and (min-width: 992px) {
-  .content__about__img {
+  .about__img {
     max-width: 40%;
   }
 }
-.content__skills__icon {
+
+.skills__icon {
   font-size: 2rem;
   color: #902923;
 }
-.content__skills__label {
+.skills__label {
   color: #a22c29 !important;
 }
 @media only screen and (min-width: 992px) {
-  .content__skills__icon {
+  .skills__icon {
     font-size: 2.5rem;
   }
-  .content__skills__label {
+  .skills__label {
     font-size: 1.5rem;
   }
 }

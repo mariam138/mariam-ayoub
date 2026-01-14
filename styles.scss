@@ -30,54 +30,53 @@ body {
   p {
     color: palette.$onyx;
   }
+}
 
-  &__landing {
-    &__para {
-      font-weight: 400;
-      font-size: 1.25rem;
-      color: palette.$brown-red !important;
-    }
-
-    // Make h1 title extra bold and large
-    &__title {
-      font-weight: 700;
-      font-size: 2.75rem;
-      color: palette.$chestnut;
-    }
+.landing {
+  &__para {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: palette.$brown-red !important;
   }
 
-  &__about {
-    // Image takes 80% of parent container on smaller screen
+  // Make h1 title extra bold and large
+  &__title {
+    font-weight: 700;
+    font-size: 2.75rem;
+    color: palette.$chestnut;
+  }
+}
+
+.about {
+  // Image takes 80% of parent container on smaller screen
+  &__img {
+    max-width: 80%;
+  }
+
+  // Create smaller img for bigger screens
+  @include laptop {
     &__img {
-      max-width: 80%;
-    }
-
-    // Create smaller img for bigger screens
-    @include laptop {
-      &__img {
-        max-width: 40%;
-      }
+      max-width: 40%;
     }
   }
+}
 
-  &__skills {
+.skills {
+  &__icon {
+    font-size: 2rem;
+    color: palette.$chestnut;
+  }
+
+  &__label {
+    color: palette.$brown-red !important;
+  }
+
+  @include laptop {
     &__icon {
-      font-size: 2rem;
-      color: palette.$chestnut;
+      font-size: 2.5rem;
     }
-
-    &__label{
-      color: palette.$brown-red !important;
+    &__label {
+      font-size: 1.5rem;
     }
-
-    @include laptop {
-      &__icon {
-        font-size: 2.5rem;
-      }
-      &__label {
-        font-size: 1.5rem;
-      }
-    }
-    
   }
 }
