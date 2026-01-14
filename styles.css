@@ -57,12 +57,12 @@ body {
 .projects__card {
   width: 16rem;
   height: 20rem;
-  background-color: rgb(198, 199, 187);
+  background-color: #d6d5c9;
 }
 
 .button {
   display: inline-block;
-  background-color: #d6d5c9;
+  background-color: white;
   color: #0a100d;
   font-weight: 400;
   padding: 7px 10px;
