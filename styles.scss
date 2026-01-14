@@ -88,3 +88,25 @@ body {
     background-color: palette.$ash-grey;
   }
 }
+
+// Custom btn styling for project cards
+.button {
+  display: inline-block;
+  background-color: palette.$dust-grey;
+  color: palette.$onyx;
+  font-weight: 400;
+  padding: 7px 10px;
+  text-decoration: none;
+  border: 1px solid palette.$onyx;
+  border-radius: 7px;
+
+  &:visited {
+    color: palette.$onyx;
+  }
+
+  &:hover {
+    background-color: palette.$brown-red;
+    color: white;
+  }
+}
+

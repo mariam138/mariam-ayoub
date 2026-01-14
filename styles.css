@@ -59,3 +59,21 @@ body {
   height: 18rem;
   background-color: rgb(198, 199, 187);
 }
+
+.button {
+  display: inline-block;
+  background-color: #d6d5c9;
+  color: #0a100d;
+  font-weight: 400;
+  padding: 7px 10px;
+  text-decoration: none;
+  border: 1px solid #0a100d;
+  border-radius: 7px;
+}
+.button:visited {
+  color: #0a100d;
+}
+.button:hover {
+  background-color: #a22c29;
+  color: white;
+}
