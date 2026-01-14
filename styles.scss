@@ -119,6 +119,7 @@ body {
   &__link {
     color: white;
     text-decoration: none;
+    // font-size: 2rem;
 
     &:hover, &:active {
       text-decoration: underline;
@@ -126,6 +127,17 @@ body {
 
     &:visited {
       color: white;
+    }
+
+    &--lg {
+      font-size: 2.25rem;
+    }
+  }
+
+  // Allows icons to be smaller on larger screens to take up less real estate
+  @include laptop {
+    &--lg {
+      font-size: 1.75rem;
     }
   }
 }
