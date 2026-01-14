@@ -77,3 +77,17 @@ body {
   background-color: #a22c29;
   color: white;
 }
+
+.contact-footer__nav {
+  background-color: #902923;
+}
+.contact-footer__link {
+  color: white;
+  text-decoration: none;
+}
+.contact-footer__link:hover, .contact-footer__link:active {
+  text-decoration: underline;
+}
+.contact-footer__link:visited {
+  color: white;
+}

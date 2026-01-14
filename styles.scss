@@ -110,3 +110,23 @@ body {
   }
 }
 
+// Styling for footer with contact links
+.contact-footer {
+  &__nav {
+    background-color: palette.$chestnut;
+  }
+
+  &__link {
+    color: white;
+    text-decoration: none;
+
+    &:hover, &:active {
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: white;
+    }
+  }
+}
+
