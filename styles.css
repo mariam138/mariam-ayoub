@@ -44,6 +44,9 @@ body {
   .about__img {
     max-width: 35%;
   }
+  .about__para {
+    font-size: 1.25rem;
+  }
 }
 
 .skills__icon {
