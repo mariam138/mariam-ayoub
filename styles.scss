@@ -14,6 +14,7 @@
   @extend %inter-font;
 }
 
+// Set background colour for page
 body {
   background-color: white;
 }
@@ -32,6 +33,7 @@ body {
   }
 }
 
+// Styling for landing paragraph and title
 .landing {
   &__para {
     font-weight: 400;
@@ -39,7 +41,6 @@ body {
     color: palette.$brown-red !important;
   }
 
-  // Make h1 title extra bold and large
   &__title {
     font-weight: 700;
     font-size: 2.75rem;
@@ -61,12 +62,14 @@ body {
   }
 }
 
+// Custom styling for technical skills section
 .skills {
   &__icon {
     font-size: 2rem;
     color: palette.$chestnut;
   }
 
+  // !important used to override above declaration for <p> colour
   &__label {
     color: palette.$brown-red !important;
   }
@@ -81,6 +84,7 @@ body {
   }
 }
 
+// Custom styling for projects section
 .projects {
   &__para {
     @include laptop {
