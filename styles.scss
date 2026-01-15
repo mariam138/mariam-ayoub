@@ -46,6 +46,16 @@ body {
     font-size: 2.75rem;
     color: palette.$chestnut;
   }
+
+  @include laptop {
+    &__para {
+      font-size: 1.5rem;
+    }
+
+    &__title {
+      font-size: 3rem;
+    }
+  }
 }
 
 .about {
