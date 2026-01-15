@@ -125,6 +125,12 @@ body {
   &__card {
     width: 18rem;
     background-color: palette.$mint-cream;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
   }
 }
 
