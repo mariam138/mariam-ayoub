@@ -82,7 +82,29 @@ body {
 }
 
 .projects {
-  &__card{
+  &__para {
+    @include laptop {
+      &--lg {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  &__github-link {
+    color: palette.$chestnut;
+    text-decoration: none;
+    font-weight: 400;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: palette.$chestnut;
+    }
+  }
+
+  &__card {
     width: 16rem;
     background-color: palette.$mint-cream;
   }
@@ -120,7 +142,8 @@ body {
     text-decoration: none;
     // font-size: 2rem;
 
-    &:hover, &:active {
+    &:hover,
+    &:active {
       text-decoration: underline;
     }
 
@@ -140,4 +163,3 @@ body {
     }
   }
 }
-

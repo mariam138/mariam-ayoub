@@ -54,6 +54,22 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .projects__para--lg {
+    font-size: 1.3rem;
+  }
+}
+.projects__github-link {
+  color: #902923;
+  text-decoration: none;
+  font-weight: 400;
+}
+.projects__github-link:hover {
+  text-decoration: underline;
+}
+.projects__github-link:visited {
+  color: #902923;
+}
 .projects__card {
   width: 16rem;
   background-color: #f1fffa;
