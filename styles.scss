@@ -57,7 +57,7 @@ body {
   // Create smaller img for bigger screens
   @include laptop {
     &__img {
-      max-width: 40%;
+      max-width: 35%;
     }
   }
 }
