@@ -8,8 +8,7 @@ View the live site [here](https://mariam138.github.io/mariam-ayoub/)!
 ### Colour Scheme
 
 - Onyx: `#0a100d`
-- Ash Grey: `#b9baa3`
-- Dust Grey: `#d6d5c9`
+- Mint Cream: `#f1fffa`
 - Brown Red: `#a22c29`
 - Chestnut: `#902923`
 
