@@ -16,3 +16,7 @@ View the live site [here](https://mariam138.github.io/mariam-ayoub/)!
 ### Typography
 
 I used the "Inter" font for my website, downloaded from [Google Fonts](https://fonts.google.com/specimen/Inter).
+
+## Resources
+
+- Icons used on website are from [Devicon](devicon.dev) and [Academic Icons](https://jpswalsh.github.io/academicons/)
